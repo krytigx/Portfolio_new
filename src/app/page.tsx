@@ -67,7 +67,7 @@ export default function HomePage() {
                 className="object-cover"
               />
             </div>
-            <p className="text-lg md:text-xl leading-relaxed mt-6 text-right">
+            <p className="text-lg md:text-xl leading-relaxed mt-6 text-right text-6xl">
               Hello, I'm a freelancer specializing in minimal design with 10 years of expertise — based in Tokyo, working remote. Let's create!
             </p>
           </motion.div>
