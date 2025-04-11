@@ -33,9 +33,10 @@ export default function HomePage() {
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
           >
-            <h1 className="mb-4">
-              YUME<br />YASKUMI
+            <h1 className="mb-4 text-5xl">
+            KRYTIGX<br />GARG
             </h1>
+
             <motion.div
               className="mb-4"
               initial={{ y: 50, opacity: 0 }}
@@ -43,10 +44,10 @@ export default function HomePage() {
               transition={{ duration: 0.8, delay: 0.2 }}
             >
               <Link
-                href="mailto:hello@yume.com"
+                href="mailto:kryptigx@gmail.com"
                 className="text-sm opacity-70 hover:opacity-100 transition-opacity flex items-center"
               >
-                hello@yume.com
+              kryptigx@gmail.com
                 <ExternalLink className="ml-1 h-3 w-3" />
               </Link>
             </motion.div>
@@ -58,10 +59,10 @@ export default function HomePage() {
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            <div className="w-24 h-24 md:w-32 md:h-32 relative overflow-hidden rounded-full">
+            <div className="w-24 h-24 md:w-64 md:h-64 relative overflow-hidden rounded-sm">
               <Image
                 src="https://raw.githubusercontent.com/krytigx/Portfolio_images/refs/heads/main/place_holder.jpg"
-                alt="Yume Yaskumi"
+                alt="kryptigx"
                 fill
                 className="object-cover"
               />
