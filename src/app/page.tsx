@@ -33,9 +33,9 @@ export default function HomePage() {
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
           >
-            <h1 className="mb-4 text-10xl">
-            KRYTIGX<br />GARG
-            </h1>
+            <h1 className="mb-4 text-[12rem]">
+              KRYTIGX<br />GARG
+              </h1>
 
             <motion.div
               className="mb-4"
@@ -64,12 +64,14 @@ export default function HomePage() {
                 src="https://raw.githubusercontent.com/krytigx/Portfolio_images/refs/heads/main/place_holder.jpg"
                 alt="kryptigx"
                 fill
-                className="object-cover"
+                className="object-cover rounded-md"
               />
             </div>
-            <p className="text-lg md:text-xl leading-relaxed mt-6 text-right text-7xl">
+            </div>
+            <p className="text-2xl md:text-4xl font-medium leading-relaxed mt-6 text-right">
               Hello, I'm a freelancer specializing in minimal design with 10 years of expertise — based in Tokyo, working remote. Let's create!
             </p>
+
           </motion.div>
         </motion.div>
       </motion.section>
