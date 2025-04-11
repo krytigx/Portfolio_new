@@ -33,7 +33,7 @@ export default function HomePage() {
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
           >
-            <h1 className="mb-4 text-11xl">
+            <h1 className="mb-4 text-10xl">
             KRYTIGX<br />GARG
             </h1>
 
@@ -67,7 +67,7 @@ export default function HomePage() {
                 className="object-cover"
               />
             </div>
-            <p className="text-lg md:text-xl leading-relaxed mt-6 text-right text-6xl">
+            <p className="text-lg md:text-xl leading-relaxed mt-6 text-right text-7xl">
               Hello, I'm a freelancer specializing in minimal design with 10 years of expertise — based in Tokyo, working remote. Let's create!
             </p>
           </motion.div>
