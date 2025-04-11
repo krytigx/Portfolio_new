@@ -33,7 +33,7 @@ export default function HomePage() {
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
           >
-            <h1 className="mb-4 text-9xl">
+            <h1 className="mb-4 text-11xl">
             KRYTIGX<br />GARG
             </h1>
 
