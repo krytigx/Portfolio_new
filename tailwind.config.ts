@@ -9,6 +9,11 @@ export default {
   ],
   theme: {
     extend: {
+      fontSize: {
+          '10xl': '10rem',
+          '12xl': '12rem',
+          '14xl': '14rem',
+      },  
       fontFamily: {
         display: ['var(--font-display)'],
         body: ['var(--font-body)'],
